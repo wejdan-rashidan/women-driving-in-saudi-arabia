@@ -1,37 +1,33 @@
-## Welcome to GitHub Pages
+## Women Mobility in Saudi Arabia
 
-You can use the [editor on GitHub](https://github.com/wejdan-rashidan/women-driving-in-saudi-arabia/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+King Salman has issued a historic royal decree granting driving licenses for women in the kingdom as of next June. This decree will affect all Saudi (9,850,218) and Non-Saudi (3,677,643) women living in the kingdom.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+The majority of Saudis (63%) were pleased with the decree. They believe that lifting the ban on women driving has a positive impact on modernizing Saudi Arabia and increased independence for them.
 
-### Markdown
+Driven heavily by the “Saudi Vision 2030,” Saudi Arabia is looking at a variety of changes that will make the country globally competitive and less oil-reliant in the future.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+2030 VISION GOALS    
+-To increase women’s participation in the workforce from 22% to 30%  
+-To lower the rate of unemployment from 11.6% to 7%
 
-```markdown
-Syntax highlighted code block
+Given that only 2 million out of the total women Saudi Arabia are part of the workforce, hopefully with them behind wheels, their career prospects and participation in the workforce will improve. 
+Knowing that lack of mobility is a major obstacle; having to rely on male relatives or private hires. 
 
-# Header 1
-## Header 2
-### Header 3
+87% of Saudi families have private drivers
+1.3 million foreigners were hired as drivers.
+25 billion Saudi Riyals as remittances.
 
-- Bulleted
-- List
+Even with regard to public transport and other transport services, 92% of intending drivers are expected to reduce their reliance on taxis and services such as Uber as a result, keeping in mind that 80% of Uber rides are for women. Accordingly, the rate of unemployment will reduce.
 
-1. Numbered
-2. List
+While going to work was the key reason to drive (45%) dropping children (39%) was the other expressed reason. 
+Interestingly, about 17% of the intending drivers expected to shop more and indulge in more leisure activities. 
+Hence, with the increase in female disposable income, a positive effect on the retail, entertainment, and food & beverage sector is anticipated in the near future.
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/wejdan-rashidan/women-driving-in-saudi-arabia/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Sources  
+-GAStat  
+-Arabian Gazette  
+-Saudi Gazette  
+-Okaz  
