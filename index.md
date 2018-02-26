@@ -31,3 +31,4 @@ Hence, with the increase in female disposable income, a positive effect on the r
 -Arabian Gazette  
 -Saudi Gazette  
 -Okaz  
+-Vision 2030 http://vision2030.gov.sa/en
