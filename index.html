@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Women Mobility in Saudi Arabia</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/piechart.css">
+    <link rel="stylesheet" href="css/sunburststyle.css">
+
+    <!-- script -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+ 
+
+</head>
+
+<body id="top">
+    <!-- home -->
+    <section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="" >
+
+        <div class="home-content">
+
+            <div class="row home-content__main">
+                <div class="col-2-3"><h1> Women Mobility<br> 
+                    in Saudi Arabia</h1> <br>King Salman has issued a historic royal decree on Sept 26,2017, granting driving licenses for women in the kingdom as of June 24,2018.</div>
+                    <div class=" map col-1-3"><img src="images/mapp.png"></div>
+            </div>
+            <div class="home-content__line"></div>
+        </div> <!-- end home-content -->
+    </section> <!-- end s-home -->
+
+
+    <!-- about -->
+    <section id='about' class="s-about">
+
+        <div class="row section-header has-bottom-sep" data-aos="fade-up">
+            <div class="col-full">
+                <h3 class="subhead subhead--dark">There are</h3>
+                <h1 class="stats__count display-1 display-1--light">14172704</h1>
+                <!-- <h1 class="display-1 display-1--light">women</h1> -->
+            </div>
+        </div> <!-- end section-header -->
+
+        <div class="row about-desc" data-aos="fade-up">
+            <div class="col-full">
+                <p>
+                Women shape around 42% of Saudi's population, and there are more than eight million women aged 15-54 in Saudi Arabia, with a combination of both Saudis and expats, who will be eligible to drive. 
+                </p>
+            </div>
+        </div> <!-- end about-desc -->
+
+        <div class="row about-stats stats block-1-4 block-m-1-2 block-mob-full" data-aos="fade-up">
+                
+            <div class="col-block stats__col ">
+                <div class="stats__count">10</div>
+                <h5>Million Saudi Women</h5>
+            </div>
+            <div class="col-block stats__col">
+                <div class="stats__count">4</div>
+                <h5>Million Non-Saudi Women</h5>
+            </div>
+            <div class="col-block stats__col">
+                <div class="stats__count">22</div>
+                <h5>% of women in workforce</h5>
+            </div>
+            <div class="col-block stats__col">
+                <div class="stats__count">21</div>
+                <h5>% of women unemployment<br> rate</h5> 
+            </div>
+
+        </div> <!-- end about-stats -->
+
+        <div class="about__line"></div>
+
+    </section> <!-- end s-about -->
+
+    <!-- services -->
+    <section id='services' class="s-services">
+
+            <div class="row section-header has-bottom-sep" data-aos="fade-up">
+                <div class="col-full">
+                    <h1 class="display-2">77% of Saudi nationals </h1>
+                    <h3 class="subhead">Support the decision to allow women to drive </h3><br>
+                </div>
+            </div> <!-- end section-header -->
+
+ <div class="row services-list block-1-2 block-tab-full" data-aos="fade-up">
+        <div class="charts--container">
+                <ul>
+                  <li class="chart">
+                    <div id="pieChart">
+                      <svg id="pieChartSVG">
+                        <defs>
+                          <filter id='pieChartInsetShadow'>
+                            <feOffset dx='0' dy='0'/>
+                            <feGaussianBlur stdDeviation='3' result='offset-blur' />
+                            <feComposite operator='out' in='SourceGraphic' in2='offset-blur' result='inverse' />
+                            <feFlood flood-color='black' flood-opacity='1' result='color' />
+                            <feComposite operator='in' in='color' in2='inverse' result='shadow' />
+                            <feComposite operator='over' in='shadow' in2='SourceGraphic' />
+                          </filter>
+                          <filter id="pieChartDropShadow">
+                            <feGaussianBlur in="SourceAlpha" stdDeviation="3" result="blur" />
+                            <feOffset in="blur" dx="0" dy="3" result="offsetBlur" />
+                            <feMerge>
+                              <feMergeNode />
+                              <feMergeNode in="SourceGraphic" />
+                            </feMerge>
+                          </filter>
+                        </defs>
+                      </svg>
+                    </div>
+                  </li>
+                </ul>
+        </div>
+        <div class="female-icon">
+        <img src="images/femaleicon.png" alt="female">
+        </div>
+        <div class="male-icon">
+        <img src="images/maleicon.png" alt="male">
+        </div>
+
+    </section> <!-- end s-services -->
+
+    <!-- ways to go -->
+    <section id='works' class="s-works">
+
+            <div class="intro-wrap">
+                    
+                <div class="row section-header has-bottom-sep light-sep" data-aos="fade-up">
+                    <div class="col-full">
+                        <h3 class="subhead">Current</h3>
+                        <h1 class="display-2 display-2--light">Ways for women to go around</h1>
+                    </div>
+                </div> <!-- end section-header -->
+            
+         <div class="row block-1-3 block-tab-full" data-aos="fade-up">
+
+            <div class="col-block align-center">
+                <img src="images/maleeee.png" />
+                <h2 class="display-2--light">Male Relatives</h2>
+                The majority of females currently rely on their spouses or male relatives
+            </div>
+            
+            <div class="col-block align-center">
+                <img src="images/driverrr.png" />
+                <h2 class="display-2--light">Private Hires</h2>
+                Around 20% of females rely on private hires
+            </div>
+            <div class="col-block align-center"> 
+                <img src="images/taxiiii.png" />
+                <h2 class="display-2--light">Public Services</h2> 
+                Around 20% of females rely on Uber, Careem, and Taxis
+            </div>
+    
+        </div> <!-- end row-->
+        </div><!-- end intro-wrap-->
+    
+        </section> <!-- end s-works -->
+
+
+    <!-- Drivers -->
+    <section id='services' class="s-services">
+
+        <div class="row section-header has-bottom-sep" data-aos="fade-up">
+            <div class="col-full">
+                <h3 class="subhead">Did you know that there are </h3>
+                <h1 class="display-2">1.3m drivers in Saudi Arabia</h1>
+                <h3 class="subhead">But a lot of issues face us with drivers </h3>
+            </div>
+        </div> <!-- end section-header -->
+
+        <div class="row services-list block-1-2 block-tab-full service-pad">
+            <div class="col-block service-item" data-aos="fade-up">
+                <div class="service-icon">
+                    <i class="icon-clock"></i>
+                </div>
+                <div class="service-text">
+                    <h3 class="h2">Being late</h3>
+                </div>
+            </div>
+
+            <div class="col-block service-item" data-aos="fade-up">
+                <div class="service-icon">
+                    <i class="icon-car"></i>
+                </div>
+                <div class="service-text">
+                    <h3 class="h2">Getting lost</h3>
+                </div>
+            </div>
+
+            <div class="col-block service-item" data-aos="fade-up">
+                <div class="service-icon">
+                    <i class="icon-warning"></i>
+                </div>  
+                <div class="service-text">
+                    <h3 class="h2">Safety concerns</h3>
+                </div>
+            </div>
+
+            <div class="col-block service-item" data-aos="fade-up">
+                <div class="service-icon">
+                    <i class="icon-chat"></i>
+                </div>
+                <div class="service-text">
+                    <h3 class="h2">Commnication problems</h3>
+                </div>
+            </div>
+            
+        </div> <!-- end services-list -->
+      <small class="source">Source: GaStat - YouGov - Arab News</small>  
+    </section> <!-- end drivers -->
+
+
+    <!-- Economy -->
+    <section id='works' class="s-works">
+
+        <div class="intro-wrap">
+                
+            <div class="row section-header has-bottom-sep light-sep" data-aos="fade-up">
+                <div class="col-full">
+                    <h3 class="subhead">Spending over </h3>
+                    <h1 class="display-2 display-2--light">25 Billion Saudi Riyals Annually</h1>
+                    Women driving will save these expenses that drain household incomes,
+                    and this income will eventually return to the economy of the country.<br><br>
+                    <small>Source: Okaz</small>
+                </div>
+            </div> <!-- end section-header -->
+
+
+        </div> <!-- end intro-wrap-->
+
+    </section> <!-- end Economy -->
+
+     <!-- Section # Planning -->
+     <section id='services' class="s-services">
+
+            <div class="row section-header has-bottom-sep" data-aos="fade-up">
+                <div class="col-full">
+                    <h3 class="subhead">Women’s intentions after given the opportunity to drive </h3>
+                </div>
+            </div> <!-- end section-header -->
+    
+            <div class="row services-list block-1-2 block-tab-full">
+                <div class="col-block service-item" data-aos="fade-up">
+                        <div class="service-text">
+                              <strong> Plan to apply for a driving license</strong> 
+                            </div>
+                            <div id="sunburstchart" class="block-1-2 ">
+                                <div id="explanation" style="visibility: block;">
+                                    <span id="percentage">65%<br>Yes</span>
+                                    <br/>
+                                    <span id="desc"></span>
+                                    <br/>
+                                </div>
+                            </div>
+            
+                        </div>
+            
+                        <div class="col-block service-item" data-aos="fade-up">
+                            <div class="service-text">
+                              <strong>Have driven a car in any other country</strong>  
+                            </div>
+                            <div id="sunburstchart2" class="block-1-2">
+                                <div id="explanation2" style="visibility: block;">
+                                    <span id="percentage2">76%<br>No</span>
+                                    <br/>
+                                    <span id="desc2"></span>
+                                    <br/>
+                                </div>
+                            </div>
+                        </div>          
+     
+            </div> <!-- end services-list -->
+                
+            <small class="source">Source: YouGov - Arab News</small> 
+    
+        </section> <!-- end Section # Planning -->
+    
+    
+        <!-- Licenses -->
+        <section id='works' class="s-works">
+    
+            <div class="intro-wrap">
+                    
+                <div class="row section-header has-bottom-sep light-sep" data-aos="fade-up">
+                    <div class="col-full">
+                        <h3 class="subhead"> Good news is</h3><br><br>
+                        <!-- <h1 class="display-2 display-2--light">Reasons to drive</h1> -->
+                           <p class="grey">Women with licenses from
+                                <b class="light">Gulf countries</b> can convert them to Saudi licenses, and those with
+                                <b class="light">international driving licenses</b> will be allowed to drive in the kingdom without the need to go to local
+                                driving schools.</p> 
+                                <br>
+                                <p class="grey">Also, women with international driving licenses visiting Saudi Arabia will be able to drive for
+                                <b class="light">one year or til the expiry date</b>.</p> 
+                                <small class="source">Source: Center For International Communication</small>
+
+                    </div>
+                </div> <!-- end section-header -->
+    
+    
+          
+    
+            </div> <!-- end intro-wrap-->
+    
+        </section> <!-- end Reasons -->
+
+
+    <!-- Cars -->
+    <section id="clients" class="s-clients">
+
+        <div class="row section-header" data-aos="fade-up">
+            <div class="col-full">
+
+                <h1 class="display-2">85% plan on purchasing cars</h1> <br><br>
+                <h3 class="subhead">Top 5 brands women aspire on buying</h3>
+            </div>
+        </div> <!-- end section-header -->
+
+        <div class="row clients-outer" data-aos="fade-up">
+            <div class="col-full">
+                <div class="clients">
+                    
+                    <a href="#0" title="" class="clients_"><img src="images/clients/toyota.jpg" /></a>
+                    <a href="#0" title="" class="clients_"><img src="images/clients/bmww.png" /></a>
+                    <a href="#0" title="" class="clients_"><img src="images/clients/jeepp.png" /></a>
+                    <a href="#0" title="" class="clients_"><img src="images/clients/mercedess.png" /></a>
+                    <a href="#0" title="" class="clients_"><img src="images/clients/kiaaa.png" /></a>                    
+                     
+                </div> <!-- end clients -->
+            </div> <!-- end col-full -->
+        </div> <!-- end clients-outer -->
+
+        <div class="row clients-outer" data-aos="fade-up">
+                <div class="col-full">
+                        <h3 class="subhead">Top 5 colors women aspire on buying</h3><br>
+
+                    <div class="clients">
+                        <a href="#0" title="" class="clients_"><img src="images/colors/blackkk.png" height="100px" width="100px" /></a>
+                        <a href="#0" title="" class="clients_"><img src="images/colors/whiteee.png" height="95px" width="93px" /></a>
+                        <a href="#0" title="" class="clients_"><img src="images/colors/pearlywhiteee.png" height="95px" width="93px" /></a>
+                        <a href="#0" title="" class="clients_"><img src="images/colors/reddd.png" height="100px" width="100px" /></a>
+                        <a href="#0" title="" class="clients_"><img src="images/colors/blueee.png" height="95px" width="93px" /></a>
+                    </div> <!-- end clients -->
+                </div> <!-- end col-full -->
+                <br><br>
+                <div class="col-full">
+                        <h3>Car sales in Saudi Arabia are expected to grow by 15-20 percent annually*.</h3>
+                </div>
+                
+            <small class="source">Source: YouGov - Arab News - *LMC Automotive</small> 
+                </div> 
+            </div> <!-- end clients-outer -->
+      
+       
+
+    </section> <!-- end cars -->
+
+
+    <!-- contact-->
+    <section id="contact" class="s-contact">
+
+        <div class="overlay"></div>
+        <div class="contact__line"></div>
+
+        <div class="row section-header" data-aos="fade-up">
+            <div class="col-full">
+                <h3 class="subhead">Alignment with</h3>
+                <h1 class="display-2 display-2--light">2030 vision goals</h1>
+            </div>
+        </div>
+
+        <div class="row contact-content" data-aos="fade-up">
+
+                        <div id="vision"> 
+                                <img data-aos=zoom-in-up id="vision" src="images/vision2.png">
+                        </div>
+                        <br><br>
+                        <small class="source">Source: Vision 2030 website</small> 
+                        
+
+        </div> <!-- end contact-content -->
+
+    </section> <!-- end s-contact -->
+
+
+
+    <!-- Java Script -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/piescript.js"></script>
+    <script src="js/sunburstScript.js"></script>
+    <script src="js/sunburst2Script.js"></script>
+   
+
+</body>
+
+</html>
